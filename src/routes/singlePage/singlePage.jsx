@@ -6,7 +6,6 @@ import DOMPurify from "dompurify";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import apiRequest from "../../lib/apiRequest.js";
-import prisma from "../../../../api/lib/prisma.js";
 
 function SinglePage() {
   const post = useLoaderData();
